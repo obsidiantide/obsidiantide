@@ -7,6 +7,6 @@
 <text x="46" y="35" font-size="15" font-weight="700" fill="url(#acc)">az-text</text>
 <text x="22" y="62" font-size="12" fill="#8b949e">github.com/obsidiantide/az-text</text>
 <circle cx="28" cy="108" r="5" fill="#3572A5"/><text x="40" y="112" font-size="12" fill="#e6edf3">Python</text>
-<path transform="translate(350 100) scale(.85)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#8b949e"/><text x="370" y="112" font-size="12" fill="#8b949e">21</text>
+<path transform="translate(350 100) scale(.85)" d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z" fill="#8b949e"/><text x="370" y="112" font-size="12" fill="#8b949e">0</text>
 </g>
 </svg>
