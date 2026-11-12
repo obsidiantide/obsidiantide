@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="70" viewBox="0 0 840 70" role="img" aria-label="" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif">
+<title></title>
+<defs><linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".15" stop-color="#fff"/><stop offset=".85" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="m"><rect width="840" height="70" fill="url(#fade)"/></mask></defs>
+<g mask="url(#m)"><path d="M -420 34 q 105 -14 210 0 t 210 0 t 210 0 t 210 0 t 210 0 t 210 0 t 210 0 t 210 0 V 70 H -420 Z" fill="#5eead4" fill-opacity=".3"><animateTransform attributeName="transform" type="translate" from="0 0" to="420 0" dur="16s" repeatCount="indefinite"/></path>
+<path d="M -300 44 q 75 -10 150 0 t 150 0 t 150 0 t 150 0 t 150 0 t 150 0 t 150 0 t 150 0 t 150 0 t 150 0 V 70 H -300 Z" fill="#2dd4bf" fill-opacity=".3"><animateTransform attributeName="transform" type="translate" from="0 0" to="300 0" dur="11s" repeatCount="indefinite"/></path>
+<path d="M -240 52 q 60 -8 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 t 120 0 V 70 H -240 Z" fill="#a78bfa" fill-opacity=".3"><animateTransform attributeName="transform" type="translate" from="0 0" to="240 0" dur="8s" repeatCount="indefinite"/></path></g>
+</svg>

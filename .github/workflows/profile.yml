@@ -1,4 +1,4 @@
-name: Update streak card
+name: Update profile cards
 
 on:
   schedule:
@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - scripts/streak.mjs
-      - .github/workflows/streak.yml
+      - scripts/profile.mjs
+      - .github/workflows/profile.yml
 
 permissions:
   contents: write
 
 concurrency:
-  group: streak-${{ github.ref }}
+  group: profile-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -25,18 +25,20 @@ jobs:
         with:
           node-version: 22
       - name: Generate cards
-        run: node scripts/streak.mjs
+        run: node scripts/profile.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_LOGIN: ${{ github.repository_owner }}
       - name: Commit if changed
+        # Runs even when one card failed, so the cards that did build are kept.
+        if: always()
         run: |
-          git add assets/streak-dark.svg assets/streak-light.svg
+          git add assets
           if git diff --cached --quiet; then
             echo "No changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update streak card"
+          git commit -m "Update profile cards"
           git push
