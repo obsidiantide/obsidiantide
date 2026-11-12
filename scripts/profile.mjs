@@ -336,7 +336,6 @@ export function renderActivity(days, t) {
   }
 
   const total = year.reduce((s, d) => s + d.count, 0);
-  const best = year.reduce((b, d) => (d.count > b.count ? d : b), { count: 0, date: null });
   const active = year.filter((d) => d.count > 0).length;
   const stat = (x, value, label) =>
     `<text x="${x}" y="34" text-anchor="end" font-size="12" fill="${t.muted}"><tspan font-weight="700" fill="${t.text}">${value}</tspan> ${label}</text>`;
@@ -346,7 +345,7 @@ export function renderActivity(days, t) {
   return svg(H, `${total} contributions in the last year`, `${FADE}
 ${frame(H, t)}
 <text x="30" y="34" font-size="13" font-weight="600" letter-spacing="1.5" fill="${t.text}">LAST 12 MONTHS</text>
-${stat(W - 30, num(active), "active days")}${stat(W - 150, num(best.count), "best day")}${stat(W - 250, num(total), "contributions")}
+${stat(W - 30, num(active), "active days")}${stat(W - 150, num(total), "contributions")}
 ${months}
 ${["Mon", "Wed", "Fri"].map((d, i) => `<text x="30" y="${y0 + (1 + i * 2) * step + 9}" font-size="10" fill="${t.muted}">${d}</text>`).join("")}
 ${cols}<text x="${legendX - 8}" y="${H - 18}" text-anchor="end" font-size="10" fill="${t.muted}">Less</text>${legend}<text x="${W - 30}" y="${H - 18}" text-anchor="end" font-size="10" fill="${t.muted}">More</text>`);
