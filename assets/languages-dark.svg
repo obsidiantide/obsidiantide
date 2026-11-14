@@ -5,12 +5,12 @@
 <text x="30" y="34" font-size="13" font-weight="600" letter-spacing="1.5" fill="#e6edf3">LANGUAGES</text>
 <text x="810" y="34" text-anchor="end" font-size="12" fill="#8b949e">across public repositories</text>
 <rect x="30" y="52" width="780" height="10" rx="5" fill="#161b22"/>
-<g clip-path="url(#bar)"><rect x="30" y="52" width="693.07" height="10" fill="#3178c6"/><rect x="723.07" y="52" width="28.43" height="10" fill="#3572A5"/><rect x="751.49" y="52" width="13.74" height="10" fill="#7355dd"/><rect x="765.23" y="52" width="13.28" height="10" fill="#e34c26"/><rect x="778.51" y="52" width="11.23" height="10" fill="#663399"/><rect x="789.74" y="52" width="8.43" height="10" fill="#b07219"/><rect x="798.17" y="52" width="11.83" height="10" fill="#8b949e"/></g>
+<g clip-path="url(#bar)"><rect x="30" y="52" width="692.06" height="10" fill="#3178c6"/><rect x="722.06" y="52" width="28.39" height="10" fill="#3572A5"/><rect x="750.45" y="52" width="13.72" height="10" fill="#7355dd"/><rect x="764.17" y="52" width="13.26" height="10" fill="#e34c26"/><rect x="777.43" y="52" width="11.21" height="10" fill="#663399"/><rect x="788.64" y="52" width="9.55" height="10" fill="#b07219"/><rect x="798.19" y="52" width="11.81" height="10" fill="#8b949e"/></g>
 <g class="f" style="animation-delay:0.3s"><circle cx="35" cy="88" r="5" fill="#3178c6"/><text x="48" y="92" font-size="12" fill="#e6edf3">TypeScript <tspan fill="#8b949e">89%</tspan></text></g>
 <g class="f" style="animation-delay:0.38s"><circle cx="230" cy="88" r="5" fill="#3572A5"/><text x="243" y="92" font-size="12" fill="#e6edf3">Python <tspan fill="#8b949e">3.6%</tspan></text></g>
 <g class="f" style="animation-delay:0.46s"><circle cx="425" cy="88" r="5" fill="#7355dd"/><text x="438" y="92" font-size="12" fill="#e6edf3">C# <tspan fill="#8b949e">1.8%</tspan></text></g>
 <g class="f" style="animation-delay:0.54s"><circle cx="620" cy="88" r="5" fill="#e34c26"/><text x="633" y="92" font-size="12" fill="#e6edf3">HTML <tspan fill="#8b949e">1.7%</tspan></text></g>
 <g class="f" style="animation-delay:0.62s"><circle cx="35" cy="114" r="5" fill="#663399"/><text x="48" y="118" font-size="12" fill="#e6edf3">CSS <tspan fill="#8b949e">1.4%</tspan></text></g>
-<g class="f" style="animation-delay:0.7s"><circle cx="230" cy="114" r="5" fill="#b07219"/><text x="243" y="118" font-size="12" fill="#e6edf3">Java <tspan fill="#8b949e">1.1%</tspan></text></g>
+<g class="f" style="animation-delay:0.7s"><circle cx="230" cy="114" r="5" fill="#b07219"/><text x="243" y="118" font-size="12" fill="#e6edf3">Java <tspan fill="#8b949e">1.2%</tspan></text></g>
 <g class="f" style="animation-delay:0.78s"><circle cx="425" cy="114" r="5" fill="#8b949e"/><text x="438" y="118" font-size="12" fill="#e6edf3">Other <tspan fill="#8b949e">1.5%</tspan></text></g>
 </svg>
